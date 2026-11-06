@@ -1,0 +1,67 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Min Khant\Projects\CoffeeShop\frontend\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--fetch-retries" "0" "--fetch-timeout" "15000" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Min Khant\Projects\CoffeeShop\frontend\.npm-cache\_logs\2026-10-16T08_55_06_161Z-
+10 verbose logfile D:\Min Khant\Projects\CoffeeShop\frontend\.npm-cache\_logs\2026-10-16T08_55_06_161Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest react@^19.0.0
+15 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/react attempt 1 failed with EACCES
+18 silly fetch manifest react-dom@^19.0.0
+19 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+20 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with EACCES
+21 silly fetch manifest lucide-react@^0.468.0
+22 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+23 http fetch GET https://registry.npmjs.org/lucide-react attempt 1 failed with EACCES
+24 silly fetch manifest vite@^6.1.0
+25 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+26 http fetch GET https://registry.npmjs.org/vite attempt 1 failed with EACCES
+27 silly placeDep ROOT lucide-react@ OK for: coffee-shop@1.0.0 want: ^0.468.0
+28 silly placeDep ROOT react@ OK for: coffee-shop@1.0.0 want: ^19.0.0
+29 silly placeDep ROOT react-dom@ OK for: coffee-shop@1.0.0 want: ^19.0.0
+30 silly placeDep ROOT vite@ OK for: coffee-shop@1.0.0 want: ^6.1.0
+31 verbose type system
+32 verbose stack FetchError: request to https://registry.npmjs.org/lucide-react failed, reason: 
+32 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+32 verbose stack     at ClientRequest.emit (node:events:514:28)
+32 verbose stack     at emitErrorEvent (node:_http_client:114:11)
+32 verbose stack     at _destroy (node:_http_client:1167:9)
+32 verbose stack     at onSocketNT (node:_http_client:1188:5)
+32 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+33 error code EACCES
+34 error errno EACCES
+35 error FetchError: request to https://registry.npmjs.org/lucide-react failed, reason: 
+35 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+35 error     at ClientRequest.emit (node:events:514:28)
+35 error     at emitErrorEvent (node:_http_client:114:11)
+35 error     at _destroy (node:_http_client:1167:9)
+35 error     at onSocketNT (node:_http_client:1188:5)
+35 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+35 error   code: 'EACCES',
+35 error   errno: 'EACCES',
+35 error   type: 'system',
+35 error   requiredBy: '.'
+35 error }
+36 error
+36 error The operation was rejected by your operating system.
+36 error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.
+36 error
+36 error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.
+37 silly unfinished npm timer reify 1792140906800
+38 silly unfinished npm timer reify:loadTrees 1792140906801
+39 verbose cwd D:\Min Khant\Projects\CoffeeShop\frontend
+40 verbose os Windows_NT 10.0.19045
+41 verbose node v24.21.0
+42 verbose npm  v11.19.0
+43 verbose exit 1
+44 verbose code 1
+45 error A complete log of this run can be found in: D:\Min Khant\Projects\CoffeeShop\frontend\.npm-cache\_logs\2026-10-16T08_55_06_161Z-debug-0.log
