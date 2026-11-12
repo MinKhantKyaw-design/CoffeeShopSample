@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-public class User
+public class Users
 {
     public int Id { get; set; }
     public string Name { get; set; } = "";
