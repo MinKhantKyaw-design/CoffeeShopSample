@@ -26,6 +26,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore backend\CoffeeShop.Api.csproj
     - name: Build
-      run: dotnet build CoffeeShop.Api.sln --no-restore
+      run: dotnet build backend\CoffeeShop.Api.csproj --no-restore
     - name: Test
-      run: dotnet test CoffeeShop.Api.sln --no-build --verbosity normal
+      run: dotnet test backend\CoffeeShop.Api.csproj --no-build --verbosity normal
