@@ -24,7 +24,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore CoffeeShop.Api.sln
+      run: dotnet restore backend\CoffeeShop.Api.csproj
     - name: Build
       run: dotnet build CoffeeShop.Api.sln --no-restore
     - name: Test
