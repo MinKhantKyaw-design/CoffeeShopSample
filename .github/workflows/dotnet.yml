@@ -9,8 +9,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+  workflow_dispatch:
+
   schedule:
-  - cron: '0 0 * * *'
+   - cron: '30 17 * * 7' # every monday 00:00 am with MM time (UTC time - 17:30 Sunday)
 
 jobs:
   build:
